@@ -11,6 +11,16 @@ wk.register({
                 r = { "References" },
                 n = { "Rename" },
             }
-        }
+        },
+        g = {
+            name = "Git",
+            s = { "Status" },
+        },
+        p = {
+            name = "Telescope",
+            f = { "Find File" },
+            s = { "Find String" },
+        },
+        u = { "Undotree" }
 }, { prefix = "<leader>" })
 
