@@ -15,6 +15,7 @@ vim.pack.add({
     {src = "https://github.com/folke/trouble.nvim"},
     {src = "https://github.com/folke/flash.nvim"},
     {src = "https://github.com/chomosuke/typst-preview.nvim"},
+    {src = "https://github.com/chrisgrieser/nvim-origami"},
 })
 
 require("plugins.catppuccin")
@@ -27,3 +28,4 @@ require("plugins.undotree")
 require("plugins.trouble")
 require("plugins.flash")
 require("plugins.typst")
+require("plugins.origami")
