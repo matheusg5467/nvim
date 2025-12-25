@@ -14,6 +14,7 @@ vim.pack.add({
     {src = "https://github.com/folke/which-key.nvim"},
     {src = "https://github.com/folke/trouble.nvim"},
     {src = "https://github.com/folke/flash.nvim"},
+    {src = "https://github.com/chomosuke/typst-preview.nvim"},
 })
 
 require("plugins.catppuccin")
@@ -25,3 +26,4 @@ require("plugins.oil")
 require("plugins.undotree")
 require("plugins.trouble")
 require("plugins.flash")
+require("plugins.typst")
