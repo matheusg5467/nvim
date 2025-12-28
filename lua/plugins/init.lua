@@ -1,5 +1,6 @@
 vim.pack.add({
     {src = "https://github.com/catppuccin/nvim"},
+    {src = "https://github.com/EdenEast/nightfox.nvim"},
     {src = "https://github.com/neovim/nvim-lspconfig"},
     {src = "https://github.com/mason-org/mason.nvim"},
     {src = "https://github.com/mason-org/mason-lspconfig.nvim"},
@@ -18,7 +19,8 @@ vim.pack.add({
     {src = "https://github.com/chrisgrieser/nvim-origami"},
 })
 
-require("plugins.catppuccin")
+-- require("plugins.catppuccin")
+require("plugins.nightfox")
 require("plugins.lsp")
 require("plugins.treesitter")
 require("plugins.telescope")
